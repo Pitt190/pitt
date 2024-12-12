@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEAW</title>
+    <link rel="stylesheet" href="styles.css"> <title>Pixelated Background</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="about">About Me</a></li>
+                <li><a href="#" data-target="achievements">Achievements</a></li>
+                <li><a href="#" data-target="skills">Skills</a></li>
+                <li><a href="#" data-target="projects">Projects</a></li>
+                <li><a href="#" data-target="sdg">SDG Focus</a></li>
+                <li><a href="#" data-target="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <style>
+    @keyframes fade {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 2; }
+    }
+
+    .animated-text {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #58a9ff;
+      animation: fade 2s infinite;
+    }
+  </style>
+</head>
+<body>
+  <h3 class="animated-text">WHAT IS UPP PEOPLE FROM EARTH!</h3>
+</body>
+</html>
+
+    <img src="ventiii.gif" alt="Description of the GIF">
+
+    <section id="about" class="active">
+        <div class="profile">
+            <img src= https://assets.onecompiler.app/432hx7r6j/432tcs6c4/att.tJsECuSC32U4uY53NQzYjTkgUJKi8uvPoY8A3HT8DNM%20(1).jpg alt="My Parofile"
+
+            <h1>Welcome! My beloved </h1>
+            <p><h4> Good day to y'all</h4> <br> I disguise myself as a first year IT student from Batangas State University The National Engineering University <br> with a strong eagerness to learn and grow in the field of technology.
+            With my basic knowledge and the guide of the wind, I assure that my journey will be flawless like the wind.</p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Best in Englsih </li>
+            
+            
+            <li>Best in Speech</li>
+            
+            
+            <li>With Honors</li>
+            
+            
+            <li>Best in Speech</li>
+            
+            
+            <li>Polite</li>
+            
+            
+            <li>With Distinction</li>
+            
+            
+            <li>Achiever Awardee</li>
+            
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML, CSS
+                - This are just my common knowledge and I'm not yet well knowledgable in the feild of Coding.
+                <br> - Actually I don't usually have or is active on projects, but I focus more on being a member on groups on barangays and our church.
+            </li>
+            
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <img src="https://via.placeholder.com/200" alt="Project 1">
+                <p>E-Learning Website</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/200" alt="Project 2">
+                <p>Portfolio Showcase</p>
+            </li>
+             <li>
+                <img src="https://via.placeholder.com/200" alt="Project 1">
+                <p>E-Learning Website</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="sdg">
+        <h2>SDG Focus: Good Health and Well Being</h2>
+        <p>My focus is on the Good Health and Well being, the number 3 of the sustainable development goals or the SDG. <br> Foccusing on the wellness and healthiness focuses on reducing mortality rates, combating diseases, and improving access to essential healthcare services. <br> While addressing issues like maternal and child health, mental health, substance abuse, and road safety.</p>
+        <p>Using my skills in the creation of websites, the use of my skills can help for the spread of information on how to maintain good health and our well being </p>
+        <p>My idea on creating the website is about the current issues that we people are facing, special mention are those of health related.<br>
+         Yes the use of social media to spread information is helpful, but with the use of websites, online users can explore more information and access to different platforms.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: 24-03523@g.batstate-u.edu.ph</li>
+            <li>Phone: +63 968-628-3456</li>
+            <li>Facebook: <a href="#" target="_blank">https://www.facebook.com/cutesiPeter19?mibextid=ZbWKwL</a></li>
+            <li>Instagram: <a href="#" target="_blank">https://www.instagram.com/pitt_atz/profilecard/?igsh=MTg5dTJhZm9rMmhueA==</a></li>
+        </ul>
+    </section>
+
+    <script>
+        const links = document.querySelectorAll('nav a');
+        const sections = document.querySelectorAll('section');
+
+        links.forEach(link => {
+            link.addEventListener('click', event => {
+                event.preventDefault();
+                const targetId = link.getAttribute('data-target');
+
+                sections.forEach(section => {
+                    section.classList.toggle('active', section.id === targetId);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+ <footer class="footer"> 
+    <p>&copy; 2024 Peter P. Atienza . All rights reserved.</p>
+    </footer>
