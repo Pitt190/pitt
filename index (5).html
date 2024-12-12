@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>Portfolio - Fatima Joy A. Bacus</title>
+    <link rel="stylesheet" href="styles.css"> <title>Pixelated Background</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio of Peter P. Atienza</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="about">About Me</a></li>
+                <li><a href="#" data-target="achievements">Achievements</a></li>
+                <li><a href="#" data-target="skills">Skills</a></li>
+                <li><a href="#" data-target="projects">Projects</a></li>
+                <li><a href="#" data-target="sdg">SDG Focus</a></li>
+                <li><a href="#" data-target="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <style>
+    @keyframes fade {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .animated-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #007bff;
+      animation: fade 3s infinite;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="animated-text">WHAT IS UPP PEOPLE FROM EARTH!</h1>
+</body>
+</html>
+
+<div class="venti">
+  <div class="navbar">
+    <img src="https://assets.onecompiler.app/432hx7r6j/432tcs6c4/BatStateU-NEU-Logo.png"
+    height="100"
+    width="100"
+    <section id="about" class="active">
+        <div class="profile">
+            <img src= https://assets.onecompiler.app/432hx7r6j/432tcs6c4/att.tJsECuSC32U4uY53NQzYjTkgUJKi8uvPoY8A3HT8DNM%20(1).jpg alt="My Parofile"
+            <h2>Welcome!</h2>
+            <p>Hi,I'm Peter P. Atienza , a first year IT student from Batangas State University The National Engineering University, with a strong eagerness to learn and grow in the field of technology.</p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Best in Englsih </li>
+            
+            
+            <li>Best in Speech</li>
+            
+            
+            <li>With Honors</li>
+            
+            
+            <li>Best in Speech</li>
+            
+            
+            <li>Polite</li>
+            
+            
+            <li>With Distinction</li>
+            
+            
+            <li>Achiever Awardee</li>
+            
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Basic Python Programming</li>
+            <li>Database Management (MySQL)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <img src="https://via.placeholder.com/200" alt="Project 1">
+                <p>E-Learning Website</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/200" alt="Project 2">
+                <p>Portfolio Showcase</p>
+            </li>
+             <li>
+                <img src="https://via.placeholder.com/200" alt="Project 1">
+                <p>E-Learning Website</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="sdg">
+        <h2>SDG Focus: Gender Equality</h2>
+        <p>My focus is on *Goal #5: Gender Equality*, advocating for equal opportunities and empowering women through technology by creating inclusive platforms and initiatives.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: fatimajoybacus@example.com</li>
+            <li>Phone: +63 977 282 7884</li>
+            <li>LinkedIn: <a href="#" target="_blank">linkedin.com/fatimajoybacus</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fatima Joy A. Bacus. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const links = document.querySelectorAll('nav a');
+        const sections = document.querySelectorAll('section');
+
+        links.forEach(link => {
+            link.addEventListener('click', event => {
+                event.preventDefault();
+                const targetId = link.getAttribute('data-target');
+
+                sections.forEach(section => {
+                    section.classList.toggle('active', section.id === targetId);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
